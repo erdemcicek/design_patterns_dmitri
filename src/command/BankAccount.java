@@ -100,23 +100,4 @@ class BankAccountCommand implements Command{
 		this.amount = amount;
 	}
 
-	
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
