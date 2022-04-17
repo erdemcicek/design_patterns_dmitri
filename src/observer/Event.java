@@ -32,7 +32,7 @@ public class Event<TArgs> {
 		}
 
 		@Override
-		public void close() /*throws Exception*/ {
+		public void close() {
 			event.handlers.remove(id);
 		}
 	}
